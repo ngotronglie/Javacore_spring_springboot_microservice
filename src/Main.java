@@ -1,3 +1,4 @@
+
 public class Main {
 
     // 1. Kiểu dữ liệu cơ bản và toán tử
@@ -176,5 +177,7 @@ public class Main {
 
         System.out.println("\n== 9. Toán tử logic ==");
         logicOperatorExample();
+        Caculator caculator = new Caculator();
+        System.out.println(caculator.add(4,6));;
     }
 }
